@@ -3,7 +3,8 @@
   "name": "Toner",
   "metadata": {
     "mapbox:autocomposite": true,
-    "mapbox:type": "template"
+    "mapbox:type": "template",
+	"openmaptiles:version": "3.x"
   },
   "center": [
     20.838971352362933,
@@ -13,7 +14,7 @@
   "bearing": 0,
   "pitch": 0,
   "sources": {
-    "composite": {
+    "openmaptiles": {
       "url": "mapbox://openmaptiles.4qljc88t",
       "type": "vector"
     }
@@ -31,7 +32,7 @@
     {
       "id": "water",
       "type": "fill",
-      "source": "composite",
+      "source": "openmaptiles",
       "source-layer": "water",
       "layout": {
         "visibility": "visible"
@@ -42,7 +43,7 @@
       "id": "boundary-admin2",
       "type": "line",
       "metadata": {},
-      "source": "composite",
+      "source": "openmaptiles",
       "source-layer": "boundary",
       "filter": [
         "==",
@@ -60,7 +61,7 @@
       "id": "transportation",
       "type": "line",
       "metadata": {},
-      "source": "composite",
+      "source": "openmaptiles",
       "source-layer": "transportation",
       "layout": {
         "visibility": "visible"
@@ -73,7 +74,7 @@
     {
       "id": "place-continent",
       "type": "symbol",
-      "source": "composite",
+      "source": "openmaptiles",
       "source-layer": "place",
       "filter": [
         "==",
@@ -99,7 +100,7 @@
     {
       "id": "place-country",
       "type": "symbol",
-      "source": "composite",
+      "source": "openmaptiles",
       "source-layer": "place",
       "filter": [
         "==",
@@ -123,7 +124,7 @@
     {
       "id": "place-settlement",
       "type": "symbol",
-      "source": "composite",
+      "source": "openmaptiles",
       "source-layer": "place",
       "filter": [
         "==",

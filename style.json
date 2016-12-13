@@ -1,149 +1,153 @@
 {
-    "version": 8,
-    "name": "Toner",
-    "metadata": {
-        "mapbox:autocomposite": true,
-        "mapbox:type": "template"
+  "version": 8,
+  "name": "Toner",
+  "metadata": {
+    "mapbox:autocomposite": true,
+    "mapbox:type": "template"
+  },
+  "center": [
+    20.838971352362933,
+    47.241654485577584
+  ],
+  "zoom": 2.8784041883593225,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "composite": {
+      "url": "mapbox://openmaptiles.4qljc88t",
+      "type": "vector"
+    }
+  },
+  "sprite": "mapbox://sprites/openmaptiles/ciwigmbgt00fw2ps58s6klalp",
+  "glyphs": "mapbox://fonts/openmaptiles/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#fff"
+      }
     },
-    "center": [
-        20.838971352362933,
-        47.241654485577584
-    ],
-    "zoom": 2.8784041883593225,
-    "bearing": 0,
-    "pitch": 0,
-    "sources": {
-        "composite": {
-            "url": "mapbox://openmaptiles.4qljc88t",
-            "type": "vector"
-        }
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "composite",
+      "source-layer": "water",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {}
     },
-    "sprite": "mapbox://sprites/openmaptiles/ciwigmbgt00fw2ps58s6klalp",
-    "glyphs": "mapbox://fonts/openmaptiles/{fontstack}/{range}.pbf",
-    "layers": [
-        {
-            "id": "background",
-            "type": "background",
-            "paint": {
-                "background-color": "#fff"
-            }
-        },
-        {
-            "id": "water",
-            "type": "fill",
-            "source": "composite",
-            "source-layer": "water",
-            "layout": {
-                "visibility": "visible"
-            },
-            "paint": {}
-        },
-        {
-            "id": "boundary-admin2",
-            "type": "line",
-            "metadata": {},
-            "source": "composite",
-            "source-layer": "boundary",
-            "filter": [
-                "==",
-                "admin_level",
-                2
-            ],
-            "layout": {
-                "visibility": "visible"
-            },
-            "paint": {
-                "line-width": 0.5
-            }
-        },
-        {
-            "id": "transportation",
-            "type": "line",
-            "metadata": {},
-            "source": "composite",
-            "source-layer": "transportation",
-            "layout": {
-                "visibility": "visible"
-            },
-            "paint": {
-                "line-width": 1,
-                "line-color": "hsl(0, 4%, 79%)"
-            }
-        },
-        {
-            "id": "place-continent",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "place",
-            "filter": [
-                "==",
-                "class",
-                "continent"
-            ],
-            "layout": {
-                "visibility": "visible",
-                "text-field": "{name_en}",
-                "text-font": [
-                    "Open Sans Bold",
-                    "Arial Unicode MS Regular"
-                ],
-                "text-max-width": 4,
-                "text-size": 13,
-                "text-line-height": 1.5
-            },
-            "paint": {
-                "text-halo-color": "#fff",
-                "text-halo-width": 2
-            }
-        },
-        {
-            "id": "place-country",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "place",
-            "filter": [
-                "==",
-                "class",
-                "country"
-            ],
-            "layout": {
-                "visibility": "visible",
-                "text-field": "{name_en}",
-                "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Regular"
-                ],
-                "text-size": 12
-            },
-            "paint": {
-                "text-halo-color": "#fff",
-                "text-halo-width": 1.5
-            }
-        },
-        {
-            "id": "place-settlement",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "place",
-            "filter": [
-                "==",
-                "class",
-                "settlement"
-            ],
-            "layout": {
-                "visibility": "visible",
-                "text-field": "{name}",
-                "text-size": 12
-            },
-            "paint": {
-                "text-halo-width": 1.5,
-                "text-halo-color": "#fff"
-            }
-        }
-    ],
-    "created": "2016-12-10T00:04:54.806Z",
-    "id": "ciwigmbgt00fw2ps58s6klalp",
-    "modified": "2016-12-10T00:58:16.705Z",
-    "owner": "openmaptiles",
-    "draft": false
+    {
+      "id": "boundary-admin2",
+      "type": "line",
+      "metadata": {},
+      "source": "composite",
+      "source-layer": "boundary",
+      "filter": [
+        "==",
+        "admin_level",
+        2
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-width": 0.5
+      }
+    },
+    {
+      "id": "transportation",
+      "type": "line",
+      "metadata": {},
+      "source": "composite",
+      "source-layer": "transportation",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-width": 1,
+        "line-color": "hsl(0, 4%, 79%)"
+      }
+    },
+    {
+      "id": "place-continent",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "place",
+      "filter": [
+        "==",
+        "class",
+        "continent"
+      ],
+      "layout": {
+        "visibility": "visible",
+        "text-field": "{name_en}",
+        "text-font": [
+          "Open Sans Bold",
+          "Arial Unicode MS Regular"
+        ],
+        "text-max-width": 4,
+        "text-size": 13,
+        "text-line-height": 1.5
+      },
+      "paint": {
+        "text-halo-color": "#fff",
+        "text-halo-width": 2
+      }
+    },
+    {
+      "id": "place-country",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "place",
+      "filter": [
+        "==",
+        "class",
+        "country"
+      ],
+      "layout": {
+        "visibility": "visible",
+        "text-field": "{name_en}",
+        "text-font": [
+          "Open Sans Semibold",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": 12
+      },
+      "paint": {
+        "text-halo-color": "#fff",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "place-settlement",
+      "type": "symbol",
+      "source": "composite",
+      "source-layer": "place",
+      "filter": [
+        "==",
+        "class",
+        "settlement"
+      ],
+      "layout": {
+        "visibility": "visible",
+        "text-field": "{name}",
+        "text-font": [
+          "Open Sans Semibold",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": 12
+      },
+      "paint": {
+        "text-halo-width": 1.5,
+        "text-halo-color": "#fff"
+      }
+    }
+  ],
+  "created": "2016-12-10T00:04:54.806Z",
+  "id": "ciwigmbgt00fw2ps58s6klalp",
+  "modified": "2016-12-10T00:58:16.705Z",
+  "owner": "openmaptiles",
+  "draft": false
 }

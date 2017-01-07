@@ -1,8 +1,10 @@
-Copyright (c) 2016, KlokanTech.com & OpenMapTiles contributors.
+Copyright (c) 2016, KlokanTech.com & OpenMapTiles contributors
+Copyright (c) 2014, Stamen Design <info@stamen.com>
 All rights reserved.
 
-Derived from "Stamen Toner" https://github.com/stamen/toner-carto
-Copyright (c) 2014, Stamen Design <info@stamen.com>, ISC license.
+New implementation by KlokanTech.com & OpenMapTiles contributors.
+Design (look&feel) derived from "Stamen Toner" (ISC license)
+https://github.com/stamen/toner-carto
 
 # Code license: BSD 3-Clause License
 
@@ -31,16 +33,13 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Design license: ISC + CC-BY 4.0
-
-https://github.com/stamen/toner-carto/blob/master/LICENSE
+# Design license: CC-BY 4.0
 
 The visual design features of the style (also known as the "look and feel" of
 the map) are licensed under the Creative Commons Attribution 4.0 license.
 
 To view a copy of the license, visit http://creativecommons.org/licenses/by/4.0/.
 
-Attribution to "OpenMapTiles.org" or "OpenMapTiles" with a link to
-http://openmaptiles.org/, need not to be provided on map images,
-but should be reasonably accessible from maps based on this style (for example,
-in a webpage linked from copyright notice on the map).
+Attribution needs not to be provided on map images, but should be reasonably
+accessible from maps based on this style (for example, in a webpage linked from
+copyright notice on the map).

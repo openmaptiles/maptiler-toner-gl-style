@@ -113,7 +113,8 @@
         "text-field": "{name_en}",
         "text-font": [
           "Open Sans Semibold",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-size": 12
       },
@@ -137,7 +138,8 @@
         "text-field": "{name}",
         "text-font": [
           "Open Sans Semibold",
-          "Arial Unicode MS Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ],
         "text-size": 12
       },

@@ -54,7 +54,7 @@ http://openmaptiles.org/.
 For a browsable electronic map based on OpenMapTiles and OpenStreetMap data, the
 credit should appear in the corner of the map. For example:
 
-[© OpenMapTiles](http://openmaptiles.org/copyright)
+[© OpenMapTiles](http://openmaptiles.org/)
 [© OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
 
 For printed and static maps a similar attribution should be made in a textual

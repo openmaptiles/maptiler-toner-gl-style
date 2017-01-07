@@ -33,7 +33,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Design license: ISC & CC-BY 4.0
+# Design license: CC-BY 4.0
 
 The visual design features of the style (also known as the "look and feel" of
 the map) are licensed under the Creative Commons Attribution 4.0 license.
@@ -47,4 +47,5 @@ Attribution needs not to be provided on map images, but should be reasonably
 accessible from maps based on this style (for example, in a webpage linked from
 copyright notice on the map).
 
-Note: See also attributtion requirements for the used tile schema (OpenMapTiles).
+Note: See also attributtion requirements for the used tile schema (OpenMapTiles):
+https://github.com/openmaptiles/openmaptiles/blob/master/LICENSE.md

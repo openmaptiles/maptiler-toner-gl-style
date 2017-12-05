@@ -104,9 +104,16 @@
       "source": "openmaptiles",
       "source-layer": "place",
       "filter": [
-        "==",
-        "class",
-        "country"
+        "all",
+        [
+          "==",
+          "class",
+          "country"
+        ],
+        [
+          "has",
+          "iso_a2"
+        ]
       ],
       "layout": {
         "visibility": "visible",

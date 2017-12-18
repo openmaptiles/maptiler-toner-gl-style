@@ -86,8 +86,7 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Bold",
-          "Arial Unicode MS Regular"
+          "Noto Sans Bold"
         ],
         "text-max-width": 4,
         "text-size": 13,
@@ -112,9 +111,7 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold",
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 12
       },
@@ -137,9 +134,7 @@
         "visibility": "visible",
         "text-field": "{name}",
         "text-font": [
-          "Open Sans Semibold",
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 12
       },

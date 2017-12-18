@@ -84,7 +84,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": [
           "Noto Sans Bold"
         ],
@@ -109,7 +109,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -132,7 +132,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-font": [
           "Noto Sans Regular"
         ],

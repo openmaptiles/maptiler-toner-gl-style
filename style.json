@@ -119,29 +119,6 @@
         "text-halo-color": "#fff",
         "text-halo-width": 1.5
       }
-    },
-    {
-      "id": "place-settlement",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "place",
-      "filter": [
-        "==",
-        "class",
-        "settlement"
-      ],
-      "layout": {
-        "visibility": "visible",
-        "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": [
-          "Noto Sans Regular"
-        ],
-        "text-size": 12
-      },
-      "paint": {
-        "text-halo-width": 1.5,
-        "text-halo-color": "#fff"
-      }
     }
   ],
   "id": "ciwigmbgt00fw2ps58s6klalp"

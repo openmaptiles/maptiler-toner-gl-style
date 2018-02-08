@@ -13,3 +13,12 @@ Start at:
 ## Preview
 
 **[:globe_with_meridians: Browse the map](https://openmaptiles.github.io/toner-gl-style/)**
+
+<img src="https://github.com/openmaptiles/toner-gl-style/raw/gh-pages/preview/preview-15.png" width="600" title="Preview Zurich">
+
+<img src="https://github.com/openmaptiles/toner-gl-style/raw/gh-pages/preview/preview-10.png" width="600" title="Preview Lake Zurich">
+
+<img src="https://github.com/openmaptiles/toner-gl-style/raw/gh-pages/preview/preview-7.png" width="600" title="Preview Switzerland">
+
+<img src="https://github.com/openmaptiles/toner-gl-style/raw/gh-pages/preview/preview-4.png" width="600" title="Preview Europe">
+

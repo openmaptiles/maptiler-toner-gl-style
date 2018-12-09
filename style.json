@@ -185,6 +185,19 @@
       "metadata": {},
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "!=",
+          "class",
+          "pier"
+        ]
+      ],
       "layout": {
         "visibility": "visible"
       },
@@ -214,6 +227,74 @@
             [
               16,
               "rgba(8, 8, 8, 1)"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "road_area_pier",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Polygon"
+        ],
+        [
+          "==",
+          "class",
+          "pier"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "rgb(242,243,240)",
+        "fill-antialias": true,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "road_pier",
+      "type": "line",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "in",
+          "class",
+          "pier"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "rgb(242,243,240)",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              17,
+              4
             ]
           ]
         }

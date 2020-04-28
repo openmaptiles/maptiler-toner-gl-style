@@ -1,8 +1,8 @@
-Copyright (c) 2016, KlokanTech.com & OpenMapTiles contributors  
+Copyright (c) 2020, MapTiler AG <info@maptiler.com>
 Copyright (c) 2014, Stamen Design <info@stamen.com>  
 All rights reserved.
 
-New implementation by KlokanTech.com & OpenMapTiles contributors.  
+New implementation by MapTiler team & OpenMapTiles contributors.  
 Design (look&feel) derived from "Stamen Toner" (ISC license)  
 https://github.com/stamen/toner-carto
 
@@ -49,18 +49,19 @@ on map images, but should be reasonably accessible from maps based on this style
 
 Products or services using maps derived from OpenMapTiles schema need to visibly
 credit "OpenMapTiles.org" or reference "OpenMapTiles" with a link to
-http://openmaptiles.org/.
+https://openmaptiles.org/.
+An exception has been granted: required copyright on this style is (C) MapTiler.
 
 For a browsable electronic map based on OpenMapTiles and OpenStreetMap data, the
 credit should appear in the corner of the map. For example:
 
-[© OpenMapTiles](http://openmaptiles.org/)
+[© MapTiler](https://www.maptiler.com/copyright/)
 [© OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
 
-For printed and static maps a similar attribution should be made in a textual
+For printed and static maps a similar attribution must be made in a textual
 description near the image, in the same fashion as if you cite a photograph.
 
 Exceptions to OpenMapTiles attribution requirement can be in a written form granted
-by Klokan Technologies GmbH (info@klokantech.com).  
-The project contributors grant Klokan Technologies GmbH the license to give such
-exceptions on a commercial basis.
+by MapTiler AG (info@maptiler.com).
+The project contributors grant MapTiler AG the license to give such exceptions on
+a commercial basis.

@@ -1,5 +1,5 @@
 # Toner GL Style
-[![Build Status](https://travis-ci.org/openmaptiles/toner-gl-style.svg?branch=master)](https://travis-ci.org/openmaptiles/maptiler-toner-gl-style)
+[![Build Status](https://travis-ci.org/openmaptiles/maptiler-toner-gl-style.svg?branch=master)](https://travis-ci.org/openmaptiles/maptiler-toner-gl-style)
 
 This is an adaptation of the [Toner](https://github.com/stamen/toner-carto) map style from [Stamen Maps](http://maps.stamen.com/).
 

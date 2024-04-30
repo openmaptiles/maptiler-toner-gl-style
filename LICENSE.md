@@ -1,4 +1,4 @@
-Copyright (c) 2020, MapTiler AG <info@maptiler.com>
+Copyright (c) 2024, MapTiler AG <info@maptiler.com>
 Copyright (c) 2014, Stamen Design <info@stamen.com>  
 All rights reserved.
 

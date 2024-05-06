@@ -38,7 +38,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The visual design features of the style (also known as the "look and feel" of
 the map) are licensed under the Creative Commons Attribution 4.0 license.
 
-To view a copy of the license, visit http://creativecommons.org/licenses/by/4.0/.
+To view a copy of the license, visit https://creativecommons.org/licenses/by/4.0/.
 
 Original design has ISC license
 https://github.com/stamen/toner-carto/blob/master/LICENSE
@@ -56,7 +56,7 @@ For a browsable electronic map based on OpenMapTiles and OpenStreetMap data, the
 credit should appear in the corner of the map. For example:
 
 [© MapTiler](https://www.maptiler.com/copyright/)
-[© OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
+[© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
 
 For printed and static maps a similar attribution must be made in a textual
 description near the image, in the same fashion as if you cite a photograph.

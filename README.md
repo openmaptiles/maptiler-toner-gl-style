@@ -20,9 +20,11 @@ Use the map editor in MapTiler Cloud to view and adjust this map. Open the edito
 
 [Test updated Toner v2](https://cloud.maptiler.com/maps/editor?map=toner-v2)
 
-Or use the Maputnik CLI to edit and develop the style. After you've started Maputnik open the editor on localhost:8000.
+Or use the [Maputnik CLI](http://openmaptiles.org/docs/style/maputnik/) to edit and develop the style. After you've started Maputnik open the editor on `localhost:8000`.
 
+```
 maputnik --watch --file style.json
+```
 
 ## Copyright
 
